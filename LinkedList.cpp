@@ -194,6 +194,7 @@ int main()
     do
     {
         cout << endl;
+        cout << "-------------------------------------------------------------------------"<<endl;
         cout << "Press 0 to Exit" << endl;
         cout << "Press 1 to insert a node at the beginning of the list" << endl;
         cout << "Press 2 to insert a node at the end of the list" << endl;
@@ -203,6 +204,7 @@ int main()
         cout << "Press 6 to delete a node from beginning" << endl;
         cout << "Press 7 to delete a node from end" << endl;
         cout << "Press 8 to delete a node from any position" << endl;
+        cout << "-------------------------------------------------------------------------"<<endl;
 
         cout << "Enter Your Choice: ";
         cin >> choice;
